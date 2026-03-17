@@ -61,7 +61,9 @@ function Navbar() {
     "after:absolute after:left-0 after:-bottom-1 after:h-[1.5px] after:w-full " +
     "after:bg-first after:origin-left after:transition-transform after:duration-300";
 
-  const bookCategories = ["Romantic", "Fantasy", "Horror", "Historical"];
+  const bookCategories = ["ALL_BOOKS", "ROMANCE", "ACTION", "FICTION", 
+  "THRILLER", "PERSONAL_DEVELOPMENT", "FOR_KIDS", 
+  "HISTORICAL", "HORROR"];
 
   const handleLinkClick = (linkName: string) => {
     setActive(linkName);
